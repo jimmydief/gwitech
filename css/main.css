@@ -155,7 +155,7 @@ input {
 }
 
 .main-content {
-	padding: 20px 14px;
+	padding: 14px;
 	width: 640px;
 	border-right: 1px solid lightgrey;
 }
@@ -166,7 +166,7 @@ input {
 }
 
 .sidebar-right {
-	padding: 20px 14px;
+	padding: 14px;
 	width: 303px;
 	float: right;
 }
@@ -249,6 +249,82 @@ input {
 	width: 62px;
 	height: 26px;
 	background: url('../images/MODULE-characterright.png') no-repeat;
+}
+
+#top-wrapper {
+	border-top: 1px solid lightgrey;
+}
+
+.left-column {
+	padding: 14px;
+	width: 420px;
+	border-right: 1px solid lightgrey;
+	display: table-cell;
+	clear: both;
+}
+
+.right-column {
+	padding: 14px;
+	width: 540px;
+	display: table-cell;
+	clear: both;
+}
+
+.right-column ul {
+	padding-left: 28px;
+	list-style-image: url('../images/CONTENT-bullet.png');
+}
+
+#apply-essentials {
+	background: url('../images/CONTENT-asterisk.png') no-repeat 216px 1px;
+	padding-left: 14px;
+}
+
+.form-item {
+	float: right;
+	clear: both;
+}
+
+form[name="application"] {
+	font-size: 15px;
+	color: #867c7c;
+}
+
+input[type="text"], textarea {
+	width: 270px;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.right-column input[type="text"], .right-column textarea {
+	width: 350px;
+}
+
+.fade-out {
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	height: 320px;
+	width: 972px;
+	position: absolute;
+	z-index: 1;
+}
+
+.coming-soon-banner {
+	font-size: 24px;
+	color: #be3557;
+	width: 972px;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	z-index: 2;
+	background-color: white;
+	box-shadow: 0 0 5px black;
+	padding: 5px;
 }
 
 footer {
