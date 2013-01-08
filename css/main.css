@@ -15,7 +15,7 @@ a:hover {
 }
 
 header {
-	width: 1000px;
+	width: 900px;
 	margin: 0 auto;
 }
 input {
@@ -24,7 +24,7 @@ input {
 .submit_button {
 	background-color: #b0053b;
 	color: #fff;
-	font-size: 17px;
+	font-size: 16px;
 	padding: 12px;
 }
 #nav {
@@ -45,7 +45,7 @@ input {
 	margin-right: 15px;
 	padding-top: 15px;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 #nav li:hover {
@@ -68,7 +68,7 @@ input {
 }
 
 #nav a {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 50px;
 	color: black;
 	text-decoration: none;
@@ -78,12 +78,12 @@ input {
 }
 
 .width-wrapper {
-	width: 1000px;
+	width: 900px;
 	margin: 0 auto;
 }
 
 #content-wrapper {
-	width: 1000px;
+	width: 900px;
 	margin: 0 auto;
 	display: table;
 }
@@ -102,7 +102,7 @@ input {
 }
 
 #content-wrapper h1 {
-	font-size: 36px;
+	font-size: 35px;
 	line-height: 36px;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 15px;
@@ -111,14 +111,14 @@ input {
 
 .red {
 	color: #be3557;
-	font-size: 15px;
+	font-size: 13px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 
 .grey {
 	color: #867c7c;
-	font-size: 15px;
+	font-size: 14px;
 	margin-bottom: 20px;
 }
 
@@ -127,6 +127,7 @@ input {
 	margin-bottom: 10px;
 	padding-top: 1px;
 	padding-left: 18px;
+	font-size: 14px;
 }
 
 #content-wrapper img {
@@ -156,7 +157,7 @@ input {
 
 .main-content {
 	padding: 14px;
-	width: 640px;
+	width: 540px;
 	border-right: 1px solid lightgrey;
 }
 
@@ -184,6 +185,10 @@ input {
 	text-transform: none;
 }
 
+.sidebar-right img {
+	display: block;
+}
+
 .sidebar-right a:hover {
 	color: #666666;
 }
@@ -200,7 +205,7 @@ input {
 }
 
 #module-wrapper {
-	width: 1000px;
+	width: 900px;
 	height: 464px;
 	margin: 0 auto;
 }
@@ -210,7 +215,7 @@ input {
 }
 
 .module {
-	width: 314px;
+	width: 280px;
 	height: 450px;
 	float: left;
 }
@@ -276,7 +281,7 @@ input {
 }
 
 #apply-essentials {
-	background: url('../images/CONTENT-asterisk.png') no-repeat 216px 1px;
+	background: url('../images/CONTENT-asterisk.png') no-repeat 190px 1px;
 	padding-left: 14px;
 }
 
@@ -286,13 +291,13 @@ input {
 }
 
 form[name="application"] {
-	font-size: 15px;
+	font-size: 14px;
 	color: #867c7c;
 }
 
 input[type="text"], textarea {
 	width: 270px;
-	font-size: 15px;
+	font-size: 14px;
 	margin-bottom: 5px;
 }
 
@@ -308,14 +313,14 @@ input[type="text"], textarea {
 	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-	height: 320px;
+	height: 300px;
 	width: 972px;
 	position: absolute;
 	z-index: 1;
 }
 
 .coming-soon-banner {
-	font-size: 24px;
+	font-size: 23px;
 	color: #be3557;
 	width: 972px;
 	position: absolute;
@@ -330,8 +335,15 @@ input[type="text"], textarea {
 .quote {
 	width: 400px;
 	float: right;
-	font-size: 20px;
+	font-size: 18px;
 	margin: 0 0 15px 15px;
+}
+
+blockquote footer {
+	background-color: white;
+	font-size: 14px;
+	font-style: italic;
+	color: black;
 }
 
 .team-member {
@@ -352,7 +364,7 @@ footer {
 }
 
 #footer-wrapper {
-	width: 1000px;
+	width: 900px;
 	height: 45px;
 	margin: 0 auto;
 	color: white;
