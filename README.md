@@ -1,0 +1,3 @@
+== Global Women in Technology Website
+
+This was a quick project done for a UC Berkeley classmate's startup in the fall of 2012. It was a fairly simple HTML/CSS website built to the specifications of their web designer.
